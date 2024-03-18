@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f1f1f1;
+      padding: 20px;
+      font-family: Arial;
+    }
+
+    /* Center website */
+    .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 50px;
+      word-break: break-all;
+    }
+
+    .row {
+      margin: 8px -16px;
+    }
+
+    /* Add padding BETWEEN each column */
+    .row,
+    .row>.column {
+      padding: 8px;
+    }
+
+    /* Create four equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 25%;
+    }
+
+    /* Clear floats after rows */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Content */
+    .content {
+      background-color: white;
+      padding: 10px;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <!-- MAIN (Center website) -->
+  <div class="main">
+
+    <h1>MEXICAN FOOD.COM</h1>
+    <hr>
+
+    <h2>For Starter</h2>
+    <p>Lets dive into the magical world of Mexican Culture.</p>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="https://handletheheat.com/wp-content/uploads/2022/06/beef-empanada-recipe-SQUARE.jpg" alt="Empanada"
+            style="width:100%">
+          <h3>Empanada</h3>
+          <p>Empanada is made by folding a dough or bread patty around the stuffing. The stuffing can
+            consist of a variety of meats, vegetables, or even fruits. Empanadas have their origins in Galicia (Spain)
+            and Portugal. They first appeared in Medieval Iberia during the time of the Moorish invasions.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="https://recipetineats.com/wp-content/uploads/2020/03/Chicken-Enchiladas_1.jpg" alt="Enchiladas"
+            style="width:100%">
+          <h3>Enchiladas</h3>
+          <p>In its original form as Mexican street food, it was a simple corn tortilla that street
+            vendors would roll up and dip into a chili sauce. The modern stuffed version of this wrapped tortilla is
+            often smothered in sauce and topped with cheese, then baked to perfection. Different recipes use either
+            corn or flour tortillas.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img
+            src="https://lolascocina.com/wp-content/uploads/2014/06/05.15.2023-Tacos-de-Papa-Lolas-Cocina-2-819x1024.jpg"
+            alt="Tacosdepapa" style="width:100%">
+          <h3>Tacos de papa</h3>
+          <p>also known as potato tacos, are a popular Mexican dish made with crispy
+            tortillas that are filled with mashed potatoes and topped with fresh garnishes and spicy salsa.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod/images/gorditas-2-1676665008.jpg?crop=1xw:1xh;center,top&resize=980:*"
+            alt="Gordita" style="width:100%">
+          <h3>Gordita</h3>
+          <p>a small Mexican corn cake that is fried, baked, or grilled and stuffed with
+            various ingredients. A gordita—Spanish for “fat”—is made using masa dough, and the typical
+            fillings include cheese, shredded meats or chicharrón (fried pork rind), mushrooms, potatoes,
+            and refried beans.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="https://therecipecritic.com/wp-content/uploads/2022/05/carneasada-1153x1536.jpg" alt="Carneasada"
+            style="width:100%">
+          <h3>Carne asada</h3>
+          <p> which in English means "grilled meat," is beef. For this Mexican dish,
+            one-inch-thick steaks are marinated in lime juice and seasonings, grilled, and then cut into
+            thin strips. Carne asada is either served as a main course typically with rice and beans, or
+            used as a filling for tacos or burritos.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="https://t2.uc.ltmcdn.com/es/posts/2/7/7/como_hacer_arroz_con_leche_condensada_26772_600.webp"
+            alt="Arrozconleche" style="width:100%">
+          <h3>Arroz con leche</h3>
+          <p>The arroz con leche (rice with milk) is one of the oldest
+            desserts in Spain. Arroz con leche is prepared all over Spain, with several small
+            regional variations, but the basic ingredients are the same: rice, milk, sugar and lemon
+            or orange peel.</p>
+
+
+
+          <!-- END GRID -->
+        </div>
+
+        <div class="content">
+          <img
+            src="https://media.cntraveler.com/photos/640b605c63c7e54952eb4d22/4:3/w_1600%2Ch_1200%2Cc_limit/Mexico%2520City_GettyImages-638920569.jpg"
+            alt="Mexixcocity" style="width:100%">
+          <h3>Mexico City</h3>
+          <p>The capital city of Mexico is one of the major Latin American financial hubs. It is located inside the
+            Valley of Mexico, also called the ‘Basin of Mexico’, is made up of gorges and plateaus that lie at the
+            height of 2,240 metres from the sea level.
+            The city was founded in 1325 by the Mexica people, followed by the Aztecs and the Spanish rulers. Mexico
+            City was constructed by draining the Lake Texcoco and the city is slowly but steadily sinking in the ground.
+            The subtropical highland climate in Mexico City is pleasant.</p>
+        </div>
+
+        <!-- END MAIN -->
+
+        <section id="Footer"> © 2024. All Right Reserved.</section>
+
+
+      </div>
+
+</body>
+
+</html>
